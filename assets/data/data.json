@@ -76,7 +76,7 @@
             ],
             "image": "/SGDB.webp",
             "url": "",
-            "github": "https://github.com/usuario/SGDB"
+            "github": "https://github.com/adrianmfuentes/SGDB"
         },
         {
             "icon": "terminal",
@@ -95,7 +95,7 @@
         },
         {
             "icon": "gauge",
-            "title": "Task management de tareas.",
+            "title": "Task management.",
             "subtitle": "Web service (backend & frontend).",
             "description": "Web-based task management application that allows users to create, edit and organise tasks with an authentication system and a modern interface.",
             "technologies": [
@@ -113,7 +113,6 @@
                 }
             ],
             "image": "/Task-Manager.webp",
-            "url": "https://github.com/usuario/Task-Manager",
             "github": "https://github.com/adrianmfuentes/task-manager-frontend"
         },
         {
@@ -155,7 +154,7 @@
             "subtitle": "English Certification",
             "description": "Official title of Cambridge.",
             "date": "2021",
-            "certificate": ""
+            "certificate": "/data/b2.pdf"
         }
     ]
 }
