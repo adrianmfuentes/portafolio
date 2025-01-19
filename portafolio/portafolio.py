@@ -19,8 +19,8 @@ def index() -> rx.Component:
             about(DATA.about),
             rx.divider(),
             tech_stack(DATA.technologies),
-            info("Proyectos", DATA.projects),
-            info("Formación", DATA.training),
+            info("Projects", DATA.projects),
+            info("Education", DATA.training),
             extra(DATA.extras),
             rx.divider(),
             footer(DATA.media),
@@ -31,7 +31,6 @@ def index() -> rx.Component:
             width="100%"
         )
     )
-
 
 app = rx.App(
     stylesheets=STYLESHEETS,

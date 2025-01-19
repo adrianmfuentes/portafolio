@@ -41,7 +41,7 @@
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
+            "icon": "wallpaper",
             "title": "Personal website.",
             "subtitle": "Website.",
             "description": "Website developed by me as a form of presentation.",
@@ -56,7 +56,7 @@
                 },
                 {
                     "icon": "devicon-javascript-plain",
-                    "name": "JaavScript"
+                    "name": "JavaScript"
                 }
             ],
             "image": "/Task-Manager.webp",
