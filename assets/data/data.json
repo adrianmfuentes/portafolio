@@ -43,7 +43,7 @@
         {
             "icon": "wallpaper",
             "title": "Personal website.",
-            "subtitle": "Website.",
+            "subtitle": "Project.",
             "description": "Website developed by me as a form of presentation.",
             "technologies": [
                 {
@@ -62,6 +62,74 @@
             "image": "/Task-Manager.webp",
             "url": "https://adrianmfuentes.github.io/Personal-Website/",
             "github": "https://github.com/adrianmfuentes/Personal-Website"
+        },
+        {
+            "icon": "database",
+            "title": "Database Management System.",
+            "subtitle": "Project.",
+            "description": "Implementation of a database management system (DBMS) from scratch using C++. It includes functionalities such as basic queries, data warehousing and index optimisation.",
+            "technologies": [
+                {
+                    "icon": "devicon-cplusplus-plain",
+                    "name": "C++"
+                }
+            ],
+            "image": "/SGDB.webp",
+            "url": "",
+            "github": "https://github.com/usuario/SGDB"
+        },
+        {
+            "icon": "terminal",
+            "title": "Shell.",
+            "subtitle": "Proyecto.",
+            "description": "Development of a functional C shell that supports basic commands, input/output redirection and background process execution.",
+            "technologies": [
+                {
+                    "icon": "devicon-c-plain",
+                    "name": "C"
+                }
+            ],
+            "image": "/Shell.webp",
+            "url": "",
+            "github": "https://github.com/adrianmfuentes/Shell"
+        },
+        {
+            "icon": "gauge",
+            "title": "Task management de tareas.",
+            "subtitle": "Web service (backend & frontend).",
+            "description": "Web-based task management application that allows users to create, edit and organise tasks with an authentication system and a modern interface.",
+            "technologies": [
+                {
+                    "icon": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "icon": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                },
+                {
+                    "icon": "devicon-mariadb-plain",
+                    "name": "MariaDb"
+                }
+            ],
+            "image": "/Task-Manager.webp",
+            "url": "https://github.com/usuario/Task-Manager",
+            "github": "https://github.com/adrianmfuentes/task-manager-frontend"
+        },
+        {
+            "icon": "flame",
+            "title": "Information Retrieval.",
+            "subtitle": "Project.",
+            "description": "Information retrieval system that processes and analyzes large amounts of text to provide relevant results based on search queries.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                }
+            ],
+            "image": "/Information-Retrieval.webp",
+            "url": "",
+            "github": "https://github.com/adrianmfuentes/Information-Retrieval"
         }
     ],
     "training": [
@@ -80,14 +148,14 @@
             "description": "I learned concepts of HTML5, CSS3 & JS; as well as creating websites with React and NodeJS.",
             "date": "2024",
             "certificate": "https://sede.uniovi.es/utilidades/codigoverificacion?cve=c8af4cf5-f8f0-4d28-9781-5caa00d2a4cb"
-        }
-    ],
-    "extras": [
+        },
         {
-            "image": "/extra_1.jpg",
-            "title": "English Certification",
-            "description": "B2 English Certificate - Cambridge.",
-            "certificate": "/certificate_1.jpg"
+            "icon": "graduation-cap",
+            "title": "B2 English Certificate - Cambridge.",
+            "subtitle": "English Certification",
+            "description": "Official title of Cambridge.",
+            "date": "2021",
+            "certificate": ""
         }
     ]
 }
