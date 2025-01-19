@@ -30,11 +30,11 @@ class Info:
 
 
 class Extra:
-    def __init__(self, image, title, description, url):
+    def __init__(self, image, title, description, certificate):
         self.image = image
         self.title = title
         self.description = description
-        self.url = url
+        self.certificate = certificate
 
 
 class Data:
@@ -50,7 +50,6 @@ class Data:
             media,
             about,
             technologies,
-            experience,
             projects,
             training,
             extras
@@ -65,7 +64,6 @@ class Data:
         self.media = Media(**media)
         self.about = about
         self.technologies = [Technology(**tech) for tech in technologies]
-        self.experience = [Info(**info) for info in experience]
         self.projects = [Info(**info) for info in projects]
         self.training = [Info(**info) for info in training]
         self.extras = [Extra(**info) for info in extras]

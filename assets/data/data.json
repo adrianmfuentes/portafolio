@@ -1,128 +1,93 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Adrian Martinez | Portafolio",
+    "description": "I am Adrian, a bilingual student of Software Engineering.",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "name": "Martinez Fuentes, Adrian",
+    "skill": "Developer & Designer",
+    "location": "Asturias, Spain",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "amf13azul@proton.me",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/adrianmfuentes",
+        "likedin": "https://linkedin.com/in/adrián-martínez-fuentes-23b79a321"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "I am a third year student of Software Engineering in Oviedo (bilingual mode). I have no work experience yet, although I have wide experience in the development of projects (individual/collective) and in the development of software projects in different fields (web, systems, etc.).",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
+            "icon": "devicon-mariadb-plain",
+            "name": "Databases"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
+            "icon": "devicon-html5-plain",
+            "name": "Web development"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
+            "icon": "devicon-eclipse-plain",
+            "name": "Design patterns"
+        },
+        {
+            "icon": "devicon-java-plain",
+            "name": "Java"
         },
         {
             "icon": "devicon-c-plain",
-            "name": "C"
+            "name": "C/C++"
         },
         {
             "icon": "devicon-python-plain",
             "name": "Python"
         }
     ],
-    "experience": [
-        {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
-        },
-        {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
-        }
-    ],
     "projects": [
         {
             "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "title": "Personal website.",
+            "subtitle": "Website.",
+            "description": "Website developed by me as a form of presentation.",
             "technologies": [
                 {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
+                    "icon": "devicon-html5-plain",
+                    "name": "HTML5"
                 },
                 {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
-                }
-            ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
-            "technologies": [
+                    "icon": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
+                    "icon": "devicon-javascript-plain",
+                    "name": "JaavScript"
                 }
             ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/Task-Manager.webp",
+            "url": "https://adrianmfuentes.github.io/Personal-Website/",
+            "github": "https://github.com/adrianmfuentes/Personal-Website"
         }
     ],
     "training": [
         {
             "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "School of Informatics Engineering of the University of Oviedo.",
+            "subtitle": "University.",
+            "description": "Third bilingual training course in software engineering.",
+            "date": "2022-To present day",
+            "certificate": "https://ingenieriainformatica.uniovi.es/"
         },
         {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "Web Development Certification - University of Oviedo.",
+            "subtitle": "Qualification",
+            "description": "I learned concepts of HTML5, CSS3 & JS; as well as creating websites with React and NodeJS.",
+            "date": "2024",
+            "certificate": "https://sede.uniovi.es/utilidades/codigoverificacion?cve=c8af4cf5-f8f0-4d28-9781-5caa00d2a4cb"
         }
     ],
     "extras": [
         {
             "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
-        },
-        {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
-        },
-        {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+            "title": "English Certification",
+            "description": "B2 English Certificate - Cambridge.",
+            "certificate": "/certificate_1.jpg"
         }
     ]
 }

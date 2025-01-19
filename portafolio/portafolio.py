@@ -13,13 +13,12 @@ DATA = data.data
 
 def index() -> rx.Component:
     return rx.center(
-        # rx.theme_panel(),
+        #rx.theme_panel(),
         rx.vstack(
             header(DATA),
             about(DATA.about),
             rx.divider(),
             tech_stack(DATA.technologies),
-            info("Experiencia", DATA.experience),
             info("Proyectos", DATA.projects),
             info("Formación", DATA.training),
             extra(DATA.extras),

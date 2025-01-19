@@ -1,7 +1,7 @@
 import reflex as rx
 from portafolio.data import Extra
-
 from portafolio.styles.styles import IMAGE_HEIGHT, Size
+from portafolio.components.icon_button import icon_button
 
 
 def card_detail(extra: Extra) -> rx.Component:
@@ -21,9 +21,11 @@ def card_detail(extra: Extra) -> rx.Component:
                 extra.description,
                 size=Size.SMALL.value,
                 color_scheme="gray"
-            )
+            ),
+            spacing=Size.SMALL.value,
+            align="end"
         ),
         width="100%",
-        href=extra.url,
+        href=extra.certificate,
         is_external=True
     )
