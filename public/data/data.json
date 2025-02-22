@@ -1,0 +1,192 @@
+{
+    "title": "Adrian Martinez Fuentes | Portfolio",
+    "description": "I am Adrian, a bilingual student of Software Engineering.",
+    "image": "/avatar.jpg",
+    "avatar": "/avatar.jpg",
+    "name": "Martinez Fuentes, Adrian",
+    "skill": "Developer & Designer",
+    "location": "Asturias, Spain",
+    "media": {
+        "email": "amf13azul@proton.me",
+        "cv": "/data/cv.pdf",
+        "github": "https://github.com/adrianmfuentes",
+        "likedin": "https://linkedin.com/in/adrián-martínez-fuentes-23b79a321"
+    },
+    "about": "I am a third year student of Software Engineering in Oviedo (bilingual mode). I have no work experience yet, although I have wide experience in the development of projects (individual/collective) and in the development of software projects in different fields (web, systems, etc.).",
+    "technologies": [
+        {
+            "icon": "devicon-java-plain",
+            "name": "Java"
+        },
+        {
+            "icon": "devicon-c-plain",
+            "name": "C"
+        },
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-c-plain",
+            "name": "C++"
+        },
+        {
+            "icon": "devicon-c-plain",
+            "name": "C#"
+        },
+        {
+            "icon": "devicon-mariadb-plain",
+            "name": "Databases"
+        },
+        {
+            "icon": "devicon-html5-plain",
+            "name": "HTML5"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-react-original",
+            "name": "React"
+        },
+        {
+            "icon": "devicon-nodejs-plain",
+            "name": "Node.js"
+        },
+        {
+            "icon": "devicon-css3-plain",
+            "name": "CSS3"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-linux-plain",
+            "name": "Ubuntu"
+        },
+        {
+            "icon": "devicon-docker-plain",
+            "name": "Docker"
+        }     
+    ],
+    "projects": [
+        {
+            "icon": "wallpaper",
+            "title": "Personal website.",
+            "subtitle": "Project.",
+            "description": "Website developed by me as a form of presentation.",
+            "technologies": [
+                {
+                    "icon": "devicon-html5-plain",
+                    "name": "HTML5"
+                },
+                {
+                    "icon": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                }
+            ],
+            "image": "/Task-Manager.webp",
+            "url": "https://adrianmfuentes.github.io/Personal-Website/",
+            "github": "https://github.com/adrianmfuentes/Personal-Website"
+        },
+        {
+            "icon": "database",
+            "title": "Database Management System.",
+            "subtitle": "Project.",
+            "description": "Implementation of a database management system (DBMS) from scratch using C++. It includes functionalities such as basic queries, data warehousing and index optimisation.",
+            "technologies": [
+                {
+                    "icon": "devicon-cplusplus-plain",
+                    "name": "C++"
+                }
+            ],
+            "image": "/SGDB.webp",
+            "url": "",
+            "github": "https://github.com/adrianmfuentes/SGDB"
+        },
+        {
+            "icon": "terminal",
+            "title": "Shell.",
+            "subtitle": "Proyecto.",
+            "description": "Development of a functional C shell that supports basic commands, input/output redirection and background process execution.",
+            "technologies": [
+                {
+                    "icon": "devicon-c-plain",
+                    "name": "C"
+                }
+            ],
+            "image": "/Shell.webp",
+            "url": "",
+            "github": "https://github.com/adrianmfuentes/Shell"
+        },
+        {
+            "icon": "gauge",
+            "title": "Task management.",
+            "subtitle": "Web service (backend & frontend).",
+            "description": "Web-based task management application that allows users to create, edit and organise tasks with an authentication system and a modern interface.",
+            "technologies": [
+                {
+                    "icon": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "icon": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                },
+                {
+                    "icon": "devicon-mariadb-plain",
+                    "name": "MariaDb"
+                }
+            ],
+            "image": "/Task-Manager.webp",
+            "github": "https://github.com/adrianmfuentes/task-manager-frontend"
+        },
+        {
+            "icon": "flame",
+            "title": "Information Retrieval.",
+            "subtitle": "Project.",
+            "description": "Information retrieval system that processes and analyzes large amounts of text to provide relevant results based on search queries.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                }
+            ],
+            "image": "/Information-Retrieval.webp",
+            "url": "",
+            "github": "https://github.com/adrianmfuentes/Information-Retrieval"
+        }
+    ],
+    "training": [
+        {
+            "icon": "backpack",
+            "title": "School of Informatics Engineering of the University of Oviedo.",
+            "subtitle": "University.",
+            "description": "Third bilingual training course in software engineering.",
+            "date": "2022-To present day",
+            "certificate": "https://ingenieriainformatica.uniovi.es/"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "Web Development Certification - University of Oviedo.",
+            "subtitle": "Qualification",
+            "description": "I learned concepts of HTML5, CSS3 & JS; as well as creating websites with React and NodeJS.",
+            "date": "2024",
+            "certificate": "https://sede.uniovi.es/utilidades/codigoverificacion?cve=c8af4cf5-f8f0-4d28-9781-5caa00d2a4cb"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "B2 English Certificate - Cambridge.",
+            "subtitle": "English Certification",
+            "description": "Official title of Cambridge.",
+            "date": "2021",
+            "certificate": "/data/b2.pdf"
+        }
+    ]
+}
