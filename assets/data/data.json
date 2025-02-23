@@ -73,29 +73,6 @@
     ],
     "projects": [
         {
-            "icon": "wallpaper",
-            "title": "Personal website.",
-            "subtitle": "Project.",
-            "description": "Website developed by me as a form of presentation.",
-            "technologies": [
-                {
-                    "icon": "devicon-html5-plain",
-                    "name": "HTML5"
-                },
-                {
-                    "icon": "devicon-css3-plain",
-                    "name": "CSS3"
-                },
-                {
-                    "icon": "devicon-javascript-plain",
-                    "name": "JavaScript"
-                }
-            ],
-            "image": "/Task-Manager.webp",
-            "url": "https://adrianmfuentes.github.io/Personal-Website/",
-            "github": "https://github.com/adrianmfuentes/Personal-Website"
-        },
-        {
             "icon": "database",
             "title": "Database Management System.",
             "subtitle": "Project.",
