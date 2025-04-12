@@ -44,9 +44,9 @@
                 { "icon": "devicon-github-original", "name": "GitHub" },
                 { "icon": "devicon-socketio-original", "name": "Socket.io" }
             ],
-            "image": "/quiz-genius.webp",
-            "url": "https://quizgenius-demo.vercel.app",
-            "github": "https://github.com/adrianmfuentes/quiz-genius"
+            "image": "/wichat.png",
+            "url": "http://158.179.215.76:3000/",
+            "github": "https://github.com/Arquisoft/wichat_en2b"
         },
         {
             "icon": "database",
