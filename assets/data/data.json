@@ -1,87 +1,60 @@
 {
-    "title": "Adrian Martinez Fuentes | Portfolio",
-    "description": "I am Adrian, a bilingual student of Software Engineering.",
+    "title": "Adrián Martínez Fuentes | Portafolio",
+    "description": "Soy Adrián, estudiante bilingüe de Ingeniería del Software.",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Martinez Fuentes, Adrian",
-    "skill": "Developer & Designer",
-    "location": "Asturias, Spain",
+    "name": "Martínez Fuentes, Adrián",
+    "skill": "Desarrollador y Diseñador",
+    "location": "Asturias, España",
     "media": {
         "email": "amf13azul@proton.me",
         "cv": "/data/cv.pdf",
         "github": "https://github.com/adrianmfuentes",
         "likedin": "https://www.linkedin.com/in/adrianmfuentes"
     },
-    "about": "I am a third year student of Software Engineering in Oviedo (bilingual mode). I have no work experience yet, although I have wide experience in the development of projects (individual/collective) and in the development of software projects in different fields (web, systems, etc.).",
+    "about": "Soy estudiante de tercer año del Grado en Ingeniería del Software en Oviedo (modalidad bilingüe). Aún no tengo experiencia laboral, aunque tengo amplia experiencia en el desarrollo de proyectos (individuales y en equipo) y en el desarrollo de software en distintos ámbitos (web, sistemas, etc.).",
     "technologies": [
-        {
-            "icon": "devicon-java-plain",
-            "name": "Java"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C"
-        },
-        {
-            "icon": "devicon-python-plain",
-            "name": "Python"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C++"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C#"
-        },
-        {
-            "icon": "devicon-mariadb-plain",
-            "name": "Databases"
-        },
-        {
-            "icon": "devicon-html5-plain",
-            "name": "HTML5"
-        },
-        {
-            "icon": "devicon-javascript-plain",
-            "name": "JavaScript"
-        },
-        {
-            "icon": "devicon-react-original",
-            "name": "React"
-        },
-        {
-            "icon": "devicon-nodejs-plain",
-            "name": "Node.js"
-        },
-        {
-            "icon": "devicon-css3-plain",
-            "name": "CSS3"
-        },
-        {
-            "icon": "devicon-git-plain",
-            "name": "Git"
-        },
-        {
-            "icon": "devicon-linux-plain",
-            "name": "Ubuntu"
-        },
-        {
-            "icon": "devicon-docker-plain",
-            "name": "Docker"
-        }     
+        { "icon": "devicon-java-plain", "name": "Java" },
+        { "icon": "devicon-c-plain", "name": "C" },
+        { "icon": "devicon-python-plain", "name": "Python" },
+        { "icon": "devicon-c-plain", "name": "C++" },
+        { "icon": "devicon-c-plain", "name": "C#" },
+        { "icon": "devicon-mariadb-plain", "name": "Bases de Datos" },
+        { "icon": "devicon-html5-plain", "name": "HTML5" },
+        { "icon": "devicon-javascript-plain", "name": "JavaScript" },
+        { "icon": "devicon-react-original", "name": "React" },
+        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+        { "icon": "devicon-css3-plain", "name": "CSS3" },
+        { "icon": "devicon-git-plain", "name": "Git" },
+        { "icon": "devicon-linux-plain", "name": "Ubuntu" },
+        { "icon": "devicon-docker-plain", "name": "Docker" }
     ],
     "projects": [
         {
-            "icon": "database",
-            "title": "Database Management System.",
-            "subtitle": "Project.",
-            "description": "Implementation of a database management system (DBMS) from scratch using C++. It includes functionalities such as basic queries, data warehousing and index optimisation.",
+            "icon": "gamepad",
+            "title": "WiChat - Plataforma de juego tipo Quiz",
+            "subtitle": "Proyecto en equipo (7 desarrolladores) - En desarrollo",
+            "description": "Desarrollo de una aplicación web tipo concurso inspirada en el programa de televisión 'Saber y Ganar'. La plataforma ofrece juego multijugador en tiempo real, desafíos cronometrados, clasificaciones y diferentes categorías de preguntas. Construida con una pila web moderna, arquitectura de microservicios, integración continua y despliegue con contenedores. También incluye un chatbot LLM para asistencia al usuario.",
             "technologies": [
-                {
-                    "icon": "devicon-cplusplus-plain",
-                    "name": "C++"
-                }
+                { "icon": "devicon-react-original", "name": "React" },
+                { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+                { "icon": "devicon-express-original", "name": "Express" },
+                { "icon": "devicon-oracle-plain", "name": "Oracle" },
+                { "icon": "devicon-docker-plain", "name": "Docker" },
+                { "icon": "devicon-github-original", "name": "GitHub" },
+                { "icon": "devicon-socketio-original", "name": "Socket.io" }
+            ],
+            "image": "/quiz-genius.webp",
+            "url": "https://quizgenius-demo.vercel.app",
+            "github": "https://github.com/adrianmfuentes/quiz-genius"
+        },
+        {
+            "icon": "database",
+            "title": "Sistema de Gestión de Bases de Datos",
+            "subtitle": "Proyecto",
+            "description": "Implementación desde cero de un sistema de gestión de bases de datos (SGBD) utilizando C++. Incluye funcionalidades como consultas básicas, almacenamiento de datos y optimización de índices.",
+            "technologies": [
+                { "icon": "devicon-cplusplus-plain", "name": "C++" }
             ],
             "image": "/SGDB.webp",
             "url": "",
@@ -89,14 +62,11 @@
         },
         {
             "icon": "terminal",
-            "title": "Shell.",
-            "subtitle": "Proyecto.",
-            "description": "Development of a functional C shell that supports basic commands, input/output redirection and background process execution.",
+            "title": "Shell",
+            "subtitle": "Proyecto",
+            "description": "Desarrollo de un shell funcional en C que soporta comandos básicos, redirección de entrada/salida y ejecución de procesos en segundo plano.",
             "technologies": [
-                {
-                    "icon": "devicon-c-plain",
-                    "name": "C"
-                }
+                { "icon": "devicon-c-plain", "name": "C" }
             ],
             "image": "/Shell.webp",
             "url": "",
@@ -104,36 +74,24 @@
         },
         {
             "icon": "gauge",
-            "title": "Task management.",
-            "subtitle": "Web service (backend & frontend).",
-            "description": "Web-based task management application that allows users to create, edit and organise tasks with an authentication system and a modern interface.",
+            "title": "Gestor de Tareas",
+            "subtitle": "Servicio web (backend y frontend)",
+            "description": "Aplicación web para la gestión de tareas que permite a los usuarios crear, editar y organizar tareas con un sistema de autenticación y una interfaz moderna.",
             "technologies": [
-                {
-                    "icon": "devicon-react-original",
-                    "name": "React"
-                },
-                {
-                    "icon": "devicon-nodejs-plain",
-                    "name": "Node.js"
-                },
-                {
-                    "icon": "devicon-mariadb-plain",
-                    "name": "MariaDb"
-                }
+                { "icon": "devicon-react-original", "name": "React" },
+                { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+                { "icon": "devicon-mariadb-plain", "name": "MariaDb" }
             ],
             "image": "/Task-Manager.webp",
             "github": "https://github.com/adrianmfuentes/task-manager-frontend"
         },
         {
             "icon": "flame",
-            "title": "Information Retrieval.",
-            "subtitle": "Project.",
-            "description": "Information retrieval system that processes and analyzes large amounts of text to provide relevant results based on search queries.",
+            "title": "Recuperación de Información",
+            "subtitle": "Proyecto",
+            "description": "Sistema de recuperación de información que procesa y analiza grandes volúmenes de texto para proporcionar resultados relevantes según las consultas de búsqueda.",
             "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                }
+                { "icon": "devicon-python-plain", "name": "Python" }
             ],
             "image": "/Information-Retrieval.webp",
             "url": "",
@@ -143,25 +101,25 @@
     "training": [
         {
             "icon": "backpack",
-            "title": "School of Informatics Engineering of the University of Oviedo.",
-            "subtitle": "University.",
-            "description": "Third bilingual training course in software engineering.",
-            "date": "2022-To present day",
+            "title": "Escuela de Ingeniería Informática de la Universidad de Oviedo",
+            "subtitle": "Universidad",
+            "description": "Tercer curso en formación bilingüe en Ingeniería del Software.",
+            "date": "2022 - Actualidad",
             "certificate": "https://ingenieriainformatica.uniovi.es/"
         },
         {
             "icon": "graduation-cap",
-            "title": "Web Development Certification - University of Oviedo.",
-            "subtitle": "Qualification",
-            "description": "I learned concepts of HTML5, CSS3 & JS; as well as creating websites with React and NodeJS.",
+            "title": "Certificación en Desarrollo Web - Universidad de Oviedo",
+            "subtitle": "Cualificación",
+            "description": "Aprendí conceptos de HTML5, CSS3 y JS, así como la creación de sitios web con React y NodeJS.",
             "date": "2024",
             "certificate": "https://sede.uniovi.es/utilidades/codigoverificacion?cve=c8af4cf5-f8f0-4d28-9781-5caa00d2a4cb"
         },
         {
             "icon": "graduation-cap",
-            "title": "B2 English Certificate - Cambridge.",
-            "subtitle": "English Certification",
-            "description": "Official title of Cambridge.",
+            "title": "Certificado de Inglés B2 - Cambridge",
+            "subtitle": "Certificación en Inglés",
+            "description": "Título oficial de Cambridge.",
             "date": "2021",
             "certificate": "/data/b2.pdf"
         }
