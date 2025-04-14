@@ -33,8 +33,8 @@
         {
             "icon": "gamepad",
             "title": "WiChat - Plataforma de juego tipo Quiz",
-            "subtitle": "Proyecto en equipo (7 desarrolladores) - En desarrollo",
-            "description": "Desarrollo de una aplicación web tipo concurso inspirada en el programa de televisión 'Saber y Ganar'. La plataforma ofrece juego multijugador en tiempo real, desafíos cronometrados, clasificaciones y diferentes categorías de preguntas. Construida con una pila web moderna, arquitectura de microservicios, integración continua y despliegue con contenedores. También incluye un chatbot LLM para asistencia al usuario.",
+            "subtitle": "Proyecto en equipo - En desarrollo",
+            "description": "Desarrollo de una aplicación web inspirada en el programa de televisión 'Saber y Ganar'. La plataforma ofrece juego multijugador en tiempo real, desafíos cronometrados, clasificaciones y diferentes categorías de preguntas. Construida con una arquitectura de microservicios, integración continua y despliegue con contenedores. También incluye un chatbot LLM para asistencia al usuario.",
             "technologies": [
                 { "icon": "devicon-react-original", "name": "React" },
                 { "icon": "devicon-nodejs-plain", "name": "Node.js" },
